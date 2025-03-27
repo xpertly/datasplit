@@ -1,6 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/javascript-node:0-19-bullseye",
   "features": {
-    "ghcr.io/devcontainers-extra/features/ts-node:1": {}
+    "ghcr.io/devcontainers-extra/features/ts-node:1": {},
+    "ghcr.io/devcontainers-contrib/features/jshint:2": {}
   }
 }
