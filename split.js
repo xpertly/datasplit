@@ -6,8 +6,8 @@ const MAX_CHUNK_SIZE = 10000; // bytes
 
 // each chunk should contain the structure specified in "chunk_template":
 const chunk_template =  {
-	"Actions": {
-		"comments": [],
+  "Actions": {
+    "comments": [],
     "posts": [],
     "messages": [],
     "reactions": [],
