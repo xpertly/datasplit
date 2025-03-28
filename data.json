@@ -208,7 +208,7 @@
                         "occupation": "Teamwork makes the Dreamwork"
                     }
                 ]
-            },
+            }
 		],
 		"reactions": [
 			{
@@ -240,9 +240,9 @@
                 "reactionCount": 99,
                 "commentCount": 60,
                 "timeAgo": "2d"
-            },
+            }
 		],
-		"lastFetchTimestamp": 1743117323637,
+		"lastFetchTimestamp": 1743117323637
 	},
 	"Profile": {
 		"followersCount": 500,
@@ -272,7 +272,7 @@
                 "firstName": "PF7",
                 "lastName": "PL7",
                 "publicIdentifier": "pb7"
-            },
+            }
         ],
         "recentFollowers": [
            {
@@ -294,7 +294,7 @@
                 "occupation": "Investor",
                 "fullName": "Full Name4",
                 "profileUrl": "https://www.linkedin.com/in/A4"
-            },
+            }
         ],
         "timestamp": 1743117254871
 	},
