@@ -19,6 +19,9 @@ function measure(chunk: any) {
   return new Blob([JSON.stringify(chunk)]).size;
 }
 
+/**
+ * I left everything the same as we left off, less some unused lines of code and explicit `any`'s that turned out to not be needed.
+ */
 function splitData(data: typeof Data) {
   let anyDataLeft = true;
   const chunks: any[] = [];
@@ -26,15 +29,15 @@ function splitData(data: typeof Data) {
   while (anyDataLeft) {
     const chunk =  {
       "Actions": {
-        "comments": [] as any[],
-        "posts": [] as any[],
-        "messages": [] as any[],
-        "reactions": [] as any[],
+        "comments": [],
+        "posts": [],
+        "messages": [],
+        "reactions": [],
         "lastFetchTimestamp": data.Actions.lastFetchTimestamp
       },
       "Profile": {
-        "recentConnections": [] as any[],
-        "recentFollowers": [] as any[],
+        "recentConnections": [],
+        "recentFollowers": [],
       },
       "retry_count": 0,
       guuid: data.guuid
