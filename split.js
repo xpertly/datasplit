@@ -21,4 +21,4 @@ const chunk_template =  {
   "guuid": "ABCD1234"
 };
 
-
+// output the chunks to console.
